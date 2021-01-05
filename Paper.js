@@ -20,7 +20,7 @@ class Paper{
         rotate(this.body.angle);
         ellipseMode(RADIUS);
         strokeWeight(3);
-        fill(255,0,255);
+        fill("magenta");
         ellipse(0,0,this.r/2,this.r/2);
         pop();
     }
